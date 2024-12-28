@@ -2,7 +2,7 @@ name: download daily illustration every day
 run-name: downloading every day illustration
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/2 * * * *"
 env:
   TZ: Asia/Shanghai
   NAME: ${{ github.actor }}
