@@ -7,7 +7,7 @@ env:
   TZ: Asia/Shanghai
   NAME: ${{ github.actor }}
 
-job:
+jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
